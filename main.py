@@ -9,5 +9,8 @@ class Calculator:
     def Subtraction(self):
         return f"{self._a} - {self._b} = {self._a - self._b}"
 
+    def Multiplication(self):
+        return f"{self._a} * {self._b} = {self._a * self._b}"
+
 c = Calculator(3,5)
 print(c.Addition())
